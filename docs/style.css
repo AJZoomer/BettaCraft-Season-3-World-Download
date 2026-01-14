@@ -1,3 +1,11 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -13,6 +21,45 @@ nav .title {
 nav a {
   text-decoration: none;
   color: black;
+}
+
+.slideshow-container {
+  width: 100%;
+  height: 400px; /* or any height you want */
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+section {
+  padding: 2em;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+.socials li {
+  margin-bottom: 0.5em;
+}
+
+.socials a {
+  color: blue;
+  text-decoration: underline;
 }
 
 footer {
@@ -32,4 +79,59 @@ footer p {
 .footer-note {
   font-size: 0.85em;
   color: #777;
+}
+/* World Downloads Css */
+.season {
+  background: white;
+  padding: 1.5em;
+  margin: 2em 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.season h2 {
+  margin-top: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+  margin: 1em 0 2em 0;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+/* License Css */
+
+pre {
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+
+/* NYE Stream Event Page Css */
+#countdown {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 1.5em 0;
+  font-family: monospace;
+  letter-spacing: 2px;
+  padding: 0.5em 1em;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  color: #333;
+}
+
+/* NYE Page Section */
+main section {
+  background: white;
+  padding: 1.5em;
+  margin: 2em auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
